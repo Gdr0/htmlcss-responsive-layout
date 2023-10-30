@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* smartphone (originale) */
+/* HEADER*/
+header {
+  background-color: #0084fd;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+  margin: 0 auto;
+}
+.fa-solid {
+  font-size: 30px;
+}
+.bar {
+  display: none;
+}
+.bar ul {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  color: white;
+}
+.get_s {
+  color: black;
+  background-color: white;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+/* HEADER */
+/* sezione 1 */
+
+/* sezione 1 */
+
+/* TABLET */
+
+/* sezione 1  */
+/* sezione 1  */
+
+/* DESKTOP */
+
+/* HEADER */
+@media screen and (min-width: 768px) {
+  .menu {
+    width: 80%;
+  }
+  .bar {
+    display: unset;
+  }
+
+  .hamburger {
+    display: none;
+  }
+}
+
+/* HEADER */
