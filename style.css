@@ -38,8 +38,10 @@ header {
 /* HEADER */
 /* /////////////////////////// */
 /* sezione 1 */
-.container {
+.bianco {
   background-color: white;
+}
+.container {
   padding-top: 40px;
 }
 .box {
@@ -52,20 +54,21 @@ header {
   margin-bottom: 40px;
 }
 .titolo {
-  padding-top: 30px;
+  padding: 20px 20px 0;
   font-size: 20px;
   color: #0084fd;
   font-weight: bold;
 }
 .lorem {
-  padding: 30px;
+  padding: 20px;
   font-weight: bold;
   opacity: 0.7;
 }
 .apple {
   margin-bottom: 30px;
-  width: 70%;
+  width: 50%;
   background-color: #0084fd;
+  margin-right: 10px;
   padding: 10px;
   border-radius: 20px;
   color: white;
@@ -97,6 +100,7 @@ header {
   }
   .special {
     width: calc((100% / 1.5) - 10px);
+    text-align: unset;
   }
 }
 /* sezione 1  */
@@ -115,6 +119,28 @@ header {
 
   .hamburger {
     display: none;
+  }
+}
+/* sezione 2  */
+@media screen and (min-width: 800px) {
+  .container {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  .box {
+    width: calc((100% / 3) - 10px);
+    margin: 5px 5px;
+  }
+  .special {
+    width: calc((100% / 1.5) - 10px);
+    display: flex;
+    align-items: ;
+  }
+
+  .phone img {
+    width: 100%;
   }
 }
 
