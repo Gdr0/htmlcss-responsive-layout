@@ -177,7 +177,6 @@ header {
   .special {
     width: calc((100% / 1.5) - 10px);
     display: flex;
-    align-items: ;
   }
 
   .phone img {
