@@ -38,15 +38,56 @@ header {
 /* HEADER */
 /* /////////////////////////// */
 /* sezione 1 */
+.container {
+  background-color: white;
+  padding-top: 40px;
+}
+.box {
+  text-align: center;
+  margin: 0 auto;
+  background-color: #b5ddff;
+  width: 80%;
+  padding: 20px 20px 0;
+  border-radius: 25px;
+  margin-bottom: 40px;
+}
+.titolo {
+  padding-top: 30px;
+  font-size: 20px;
+  color: #0084fd;
+  font-weight: bold;
+}
+.lorem {
+  padding: 30px;
+  font-weight: bold;
+  opacity: 0.7;
+}
+.apple {
+  margin-bottom: 30px;
+  width: 70%;
+  background-color: #0084fd;
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.phone img {
+  width: 80%;
+}
+.icona {
+  font-size: 60px;
+  color: #0084fd;
+}
 
 /* sezione 1 */
 /* /////////////////////////////////////////////////////////////////////////////////////////////////////
-/////////////////////////////TABLET ///////////////////////////////////////////////////////////////// */
+/////////////////////////////   TABLET   ///////////////////////////////////////////////////////////////// */
 
 /* sezione 1  */
 /* sezione 1  */
 /* ////////////////////////////////////////////////////////////////////////////////////////////////////////
-/////////////////////////////DESKTOP/////////////////////////////////////////////////////////////////////  */
+/////////////////////////////   DESKTOP     /////////////////////////////////////////////////////////////////////  */
 
 /* HEADER */
 @media screen and (min-width: 768px) {
