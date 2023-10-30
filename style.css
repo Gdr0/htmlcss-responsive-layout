@@ -38,11 +38,11 @@ header {
 /* HEADER */
 /* /////////////////////////// */
 /* sezione 1 */
-.bianco {
+.info {
   background-color: white;
 }
 .container {
-  padding-top: 40px;
+  padding: 40px 0;
 }
 .box {
   text-align: center;
@@ -84,6 +84,49 @@ header {
 }
 
 /* sezione 1 */
+/* sezione 2 */
+
+.planning,
+.app {
+  background-color: #9f6fe8;
+}
+.strategic {
+  width: 85%;
+  margin: 0 auto;
+}
+.sopra {
+  padding: 30px 0;
+  color: white;
+}
+
+.strategic img {
+  width: 100%;
+}
+.strategic h1 {
+  padding: 30px 0;
+}
+.sotto {
+  background-color: white;
+  border-radius: 35px;
+  text-align: center;
+  font-style: italic;
+  font-weight: lighter;
+  padding: 30px 0;
+}
+.sotto p {
+  margin: 20px 0;
+}
+
+.fa-arrow-down-long {
+  padding: 12.5px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #9f6fe8;
+  margin: auto;
+  font-size: 20px;
+}
+/* sezione 2 */
 /* /////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////   TABLET   ///////////////////////////////////////////////////////////////// */
 
@@ -120,9 +163,7 @@ header {
   .hamburger {
     display: none;
   }
-}
-/* sezione 2  */
-@media screen and (min-width: 800px) {
+  /* sezione 1 */
   .container {
     width: 80%;
     display: flex;
@@ -141,6 +182,20 @@ header {
 
   .phone img {
     width: 100%;
+  }
+  /* sezione 2 */
+  .planning {
+    width: 50%;
+    align-items: last baseline;
+  }
+  .strategic {
+    width: 40%;
+  }
+  .sopra h1 {
+    padding-top: 90px;
+  }
+  .sotto h1 {
+    padding: 0;
   }
 }
 
