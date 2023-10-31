@@ -127,6 +127,34 @@ header {
   font-size: 20px;
 }
 /* sezione 2 */
+/* sezione 3 */
+.testimonials {
+  background-color: white;
+}
+.col {
+  width: 80%;
+  margin: 0 auto;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 30px;
+}
+.col h1 {
+  color: #9f6fe8;
+}
+.costumer {
+  padding: 30px 10px 20px;
+  margin-top: 40px;
+  background-color: #9f6fe8;
+  color: white;
+  border-radius: 25px;
+}
+.nat {
+  width: 80%;
+}
+/* sezione 3 */
+
 /* /////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////   TABLET   ///////////////////////////////////////////////////////////////// */
 
@@ -145,6 +173,11 @@ header {
     width: calc((100% / 1.5) - 10px);
     text-align: unset;
   }
+  /* sezione 1  */
+  .costumer {
+    flex-direction: row;
+    align-items: center;
+  }
 }
 /* sezione 1  */
 
@@ -152,7 +185,7 @@ header {
 /////////////////////////////   DESKTOP     /////////////////////////////////////////////////////////////////////  */
 
 /* HEADER */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
   .menu {
     width: 80%;
   }
