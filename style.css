@@ -8,7 +8,7 @@
 /* smartphone (originale) */
 /* HEADER*/
 header {
-  background-color: #0084fd;
+  background-color: #4a42ff;
 }
 .menu {
   display: flex;
@@ -56,7 +56,7 @@ header {
 .titolo {
   padding: 20px 20px 0;
   font-size: 20px;
-  color: #0084fd;
+  color: #4a42ff;
   font-weight: bold;
 }
 .lorem {
@@ -180,7 +180,7 @@ h3 {
 }
 .button {
   background-color: #9f6fe8;
-  width: 50%;
+  width: 100px;
   border-radius: 20px;
   padding: 10px;
   text-align: center;
@@ -192,7 +192,25 @@ h3 {
   color: white;
   font-weight: bold;
 }
-
+/* footer */
+footer {
+  background-color: black;
+}
+.foot {
+  text-align: center;
+  padding: 20px;
+  color: white;
+  background-color: #363636;
+  font-weight: bold;
+  font-size: small;
+}
+.foot p {
+  margin-bottom: 30px;
+}
+.foot a {
+  color: #6c5390;
+}
+/* footer */
 /* /////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////   TABLET   ///////////////////////////////////////////////////////////////// */
 
@@ -221,6 +239,15 @@ h3 {
   .item {
     width: calc((100% / 2) - 40px);
     margin: 20px;
+  }
+  /* FOOTER */
+  footer {
+    width: 100%;
+    background-color: #363636;
+  }
+  .foot {
+    width: 70%;
+    margin: 0 auto;
   }
 }
 /* sezione 1  */
