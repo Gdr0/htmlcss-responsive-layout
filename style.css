@@ -140,20 +140,54 @@ header {
   text-align: center;
   gap: 30px;
 }
-.col h1 {
+.col h1,
+h3 {
   color: #9f6fe8;
 }
 .costumer {
-  padding: 30px 10px 20px;
+  padding: 30px 10px 30px;
   margin-top: 40px;
   background-color: #9f6fe8;
   color: white;
   border-radius: 25px;
 }
+.text p {
+  margin-bottom: 30px;
+}
 .nat {
-  width: 80%;
+  width: 100%;
 }
 /* sezione 3 */
+.benefits {
+  background-color: #9f6fe8;
+}
+.benefits h1 {
+  color: white;
+}
+.item {
+  padding: 30px;
+  text-align: unset;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+.item h1 {
+  color: #9f6fe8;
+  font-size: 50px;
+}
+.button {
+  background-color: #9f6fe8;
+  width: 50%;
+  border-radius: 20px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+.button a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
 
 /* /////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////   TABLET   ///////////////////////////////////////////////////////////////// */
@@ -173,10 +207,16 @@ header {
     width: calc((100% / 1.5) - 10px);
     text-align: unset;
   }
-  /* sezione 1  */
+  /* sezione 3  */
   .costumer {
     flex-direction: row;
     align-items: center;
+    text-align: unset;
+  }
+  /* sezione 4 */
+  .item {
+    width: calc((100% / 2) - 40px);
+    margin: 20px;
   }
 }
 /* sezione 1  */
