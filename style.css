@@ -223,6 +223,58 @@ h3 {
   color: #9f6fe8;
 }
 /* section 5*/
+/* section 6*/
+.purple {
+  background-color: #9f6fe8;
+}
+.get_started {
+  text-align: center;
+  padding: 0 20px;
+}
+.get_started span {
+  font-weight: lighter;
+  color: white;
+}
+.get_started h2 {
+  color: white;
+  padding: 20px 0 30px;
+}
+.get_started h1 {
+  color: #fbcc4d;
+  padding-bottom: 20px;
+}
+.get_started p {
+  color: white;
+  padding-bottom: 20px;
+}
+.box_button {
+  width: 100%;
+}
+.box_button .button {
+  margin: 0 auto;
+  background-color: white;
+  width: 40%;
+}
+.box_button .button a {
+  color: #9f6fe8;
+}
+.list {
+  margin-top: 40px;
+  font-size: small;
+}
+.list ul {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  color: white;
+}
+ul #copyright {
+  list-style: none;
+}
+li a {
+  color: white;
+}
+
 /* footer */
 footer {
   background-color: black;
